@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teen Magazine</title>
+        <style>
+            body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            }
+            header {
+            background: linear-gradient(45deg, #FFA500, #FF4500);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            }
+            nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f4f4f4;
+            padding: 10px;
+            }
+            nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            }
+            .banner {
+            text-align: center;
+            padding: 20px;
+            background-image: url('banner.jpg');
+            background-size: cover;
+            color: white;
+            }
+            .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 15px;
+            }
+            .article {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            }
+            .article img {
+            max-width: 100%;
+            height: auto;
+            }
+            .footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Teen Magazine</h1>
+            <p>Your guide to creativity and self-development!</p>
+        </header>
+        <nav>
+            <a href="#history">History</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#music">Music</a>
+            <a href="#crafts">DIY</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section class="banner">
+            <h2>Welcome to Teen Magazine</h2>
+            <p>Discover trends, culture, and more!</p>
+        </section>
+        <main>
+            <section class="content">
+                <div class="article">
+                    <img src="history.jpg" alt="History">
+                    <h3>History and Art</h3>
+                    <p>Explore fascinating stories and facts from around the world.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="article">
+                    <img src="recipes.jpg" alt="Recipes">
+                    <h3>Cooking</h3>
+                    <p>Try easy and delicious recipes that will surprise your friends.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="article">
+                    <img src="music.jpg" alt="Music">
+                    <h3>Music Dialog</h3>
+                    <p>Check out trending covers and original tracks.</p>
+                    <button>Listen Now</button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>Contact us: teenmag@example.com</p>
+            <p>&copy; 2025 Teen Magazine</p>
+        </footer>
+    </body>
+</html>
